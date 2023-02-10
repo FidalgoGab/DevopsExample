@@ -4,3 +4,8 @@ const nossaMensagem = 'Nossa Mensagem :)';
 function mostrarMensagem(){
     alert(nossaMensagem);
 }
+
+
+//Atribuindo cor vermelha ao botão.s
+var btn = document.getElementById("btn");
+btn.style = 'background-color: red;';
